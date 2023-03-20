@@ -5,7 +5,7 @@ class Program
     public static void Main(string[] args)
     {
         Console.WriteLine("Essa é a calculadora de combustíveis! Gostaria de simular qual combustível está mais vantajoso? 1 - SIM, 2 - NÃO.");
-
+// teste de alteração para comando pull no git
         int start = int.Parse(Console.ReadLine());
 
         while (start != 2)
